@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://techa-mobile-web.vercel.app/",
+      "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://techa-mobile-web.vercel.app/:path*",
+      "permanent": false
+    }
+  ]
+}
